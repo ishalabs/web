@@ -263,6 +263,7 @@ ul {
 }
 
 .header-section {
+	background-repeat: no-repeat;
 	position: absolute;
 	top: 0;
 	left: 0;
