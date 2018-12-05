@@ -59,6 +59,15 @@ ul {
 /*------------------------
 	Helper css
 --------------------------*/
+
+.centor {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+
 .fix {
 	overflow: hidden;
 }
@@ -325,9 +334,22 @@ ul {
 	Hero section
 --------------------------*/
 .hero-section {
-	height: 100%;
-	position: relative;
+
+	background: no-repeat center 0;
+    background-size: cover;
+    height: 460px;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    font-family:'Lato', sans-serif;
+	
 }
+
+
+ 
+  
+
+
 
 .hero-content {
 	position: absolute;
@@ -346,10 +368,44 @@ ul {
 
 .hero-content p {
 	font-size: 24px;
-	color: #0b1033;
+	
 	margin-bottom: 0;
 	margin-top: 35px;
 }
+
+
+.title-in-picture {
+   webkit-font-smoothing: antialiased;
+    color: white;
+    display: inline-block;
+    height: 120px;
+    line-height: 20px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    text-align: center;
+    padding: 10px;
+    vertical-align: middle;
+    text-align: center;
+    width: 700px;
+    background: black;
+    opacity: 1.0;
+    top: 50%;
+    left: 50%;
+    margin-left: -350px;
+    position: absolute;
+}
+
+
+.darker {
+    left: 0px;
+    top: 0px;
+    width: auto;
+    height: 100%;
+    background: rgba(0,0,0,0.6);
+}
+
+
+
 
 .owl-carousel .owl-nav {
 	position: absolute;
@@ -1631,7 +1687,7 @@ ul {
 		width: 50px;
 	}
 	.hero-content img {
-		max-width: 280px;
+		
 	}
 	.test-overlay {
 		display: none;
@@ -1716,7 +1772,7 @@ ul {
 		padding: 0 20px;
 	}
 	.hero-content {
-		display: none;
+		
 	}
 	.intro-video {
 		margin-top: -30px;
