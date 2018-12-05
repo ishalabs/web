@@ -334,7 +334,7 @@ ul {
 	Hero section
 --------------------------*/
 .hero-section {
-
+background-repeat: no-repeat;
 	background: no-repeat center 0;
     background-size: cover;
     height: 460px;
