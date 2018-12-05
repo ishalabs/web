@@ -263,7 +263,6 @@ ul {
 }
 
 .header-section {
-	background-repeat: no-repeat;
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -335,7 +334,7 @@ ul {
 	Hero section
 --------------------------*/
 .hero-section {
-background-repeat: no-repeat;
+    background-repeat: no-repeat;
 	background: no-repeat center 0;
     background-size: cover;
     height: 460px;
