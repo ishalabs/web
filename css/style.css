@@ -378,22 +378,23 @@ ul {
    webkit-font-smoothing: antialiased;
     color: white;
     display: inline-block;
-    height: 120px;
-    line-height: 20px;
+    height: 31%;
+    line-height: 20%;
     margin-bottom: 0px;
-    margin-right: 0px;
+    margin-right: 4px;
     text-align: center;
-    padding: 10px;
+    padding: 2%;
     vertical-align: middle;
     text-align: center;
-    width: 700px;
+    width: 60%;
     background: black;
     opacity: 1.0;
     top: 50%;
-    left: 50%;
+    left: 39%;
     margin-left: -350px;
     position: absolute;
 }
+
 
 
 .darker {
