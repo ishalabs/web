@@ -1864,9 +1864,27 @@ ul {
   -moz-transition-duration: 0.3s;
   transition-duration: 0.3s;
 }
-.bts-popup-container img {
+
+
+  .bts-popup-container img {
   padding: 100% 0 0 0;
 }
+
+@media only screen and (max-width: 950px) {
+   .bts-popup-container img {
+  padding: 100% 0 0 0;
+}
+}
+
+@media only screen and (max-width: 600px) {
+   .bts-popup-container img {
+  padding: 130% 0 0 0;
+}
+
+
+
+
+
 .bts-popup-container p {
 	color: white;
   padding: ;
