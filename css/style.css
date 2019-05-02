@@ -1821,7 +1821,6 @@ ul {
 }
 .bts-popup {
   z-index:999;
-
   position: fixed;
   left: 0;
   top: 0;
@@ -1844,9 +1843,9 @@ ul {
 
 .bts-popup-container {
   position: relative;
-  width: 100%;
+  width: 85%;
   max-width: relative;
-  margin: 4em auto;
+  margin: -9em auto;
   background: transparent;
   border-radius: none; 
   text-align: center;
