@@ -1843,7 +1843,7 @@ ul {
 
 .bts-popup-container {
   position: relative;
-  width: 60%;
+  width: 80%;
   max-width: relative;
   margin: -8em auto;
   background: transparent;
@@ -1867,7 +1867,7 @@ ul {
 
 
   .bts-popup-container img {
-  padding: 2% 0 0 0;
+  padding: 40% 0 0 0;
 }
 
 @media only screen and (max-width: 950px) {
