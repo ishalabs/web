@@ -1806,6 +1806,7 @@ ul {
   white-space: nowrap;
 }
 .bts-popup {
+  z-index:999;
   position: fixed;
   left: 0;
   top: 0;
