@@ -1820,11 +1820,13 @@ ul {
   white-space: nowrap;
 }
 .bts-popup {
- width: 100%;
+  z-index:999;
+
+  position: fixed;
+  left: 0;
+  top: 0;
   height: 100%;
-  position:fixed; 
-  top: calc(50% - 25px); // half of width
-  left: calc(50% - 50px); // half of height
+  width: 100%;
   background-color: rgba(0, 0, 0, 0.5);
   opacity: 0;
   visibility: hidden;
@@ -1842,7 +1844,7 @@ ul {
 
 .bts-popup-container {
   position: relative;
-  width: 85%;
+  width: 100%;
   max-width: relative;
   margin: 4em auto;
   background: transparent;
