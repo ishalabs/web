@@ -1842,8 +1842,8 @@ ul {
 }
 
 .bts-popup-container {
-  position: relative;
-  width: 66%;
+  position: absolute;
+  width: 60%;
   max-width: relative;
   margin: -8em auto;
   background: transparent;
